@@ -92,7 +92,6 @@ button {
   font-weight: 700;
   font-size: 18px;
   color: #4d5ae5;
-  height: 24px;
   flex-shrink: 0;
   margin-right: 76px;
 }
@@ -128,23 +127,18 @@ address > a:focus {
 header {
   color: #2e2f42;
   width: 100%;
-  align-items: center;
-  display: inline-flex;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  justify-content: space-around;
 }
 
 nav > ul,
 address > ul {
   display: inline-flex;
-  align-items: flex-start;
   gap: 40px;
 }
 
 .header-flexbox {
   display: inline-flex;
-  align-items: center;
   gap: 76px;
 }
 
@@ -157,7 +151,6 @@ address > ul {
 
 .flexbox-entity {
   width: 264px;
-  /* width: calc((100-(3*24px))/4); */
 }
 
 .team-page li {
@@ -204,7 +197,6 @@ address > ul {
 
 .portfolio-page-entity {
   border: 1px solid #e7e9fc;
-  /*width: calc((100%-(2*24px))/3);*/
 }
 
 .hidden {
