@@ -1,3 +1,5 @@
+User
+/* General */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -9,9 +11,6 @@ body {
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-}
-
-.footer > p {
 }
 
 .main-page-h {
@@ -65,9 +64,11 @@ address {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 button {
+  border: none;
   letter-spacing: 0.04em;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -85,6 +86,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   color: #4d5ae5;
+  height: 24px;
   flex-shrink: 0;
   margin-right: 76px;
 }
@@ -97,6 +99,7 @@ button {
   color: #f4f4fd;
 }
 
+/* Active and hover designs */
 button:hover,
 button:active,
 button:focus {
@@ -117,30 +120,28 @@ address > a:focus {
   color: #404bbf;
 }
 
+/* Flexbox designs: */
+/* Header */
 header {
   color: #2e2f42;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 nav > ul,
 address > ul {
   display: inline-flex;
-  gap: 40px;
 }
 
 .header-flexbox {
   display: inline-flex;
-  gap: 76px;
 }
 
 /* Content */
 .flexbox {
   display: flex;
   justify-content: center;
-  gap: 24px;
-}
-
-.flexbox-entity {
-  width: 264px;
 }
 
 .team-page li {
@@ -160,6 +161,8 @@ address > ul {
   background-color: #2e2f42;
   color: #fff;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-page-btn {
@@ -181,7 +184,9 @@ address > ul {
 
 .portfolio-page-entity {
   border: 1px solid #e7e9fc;
+  /*width: calc((100%-(2*24px))/3);*/
 }
 
 .hidden {
+  display: none;
 }
